@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#eeeff1;
+}
+
+.main .header-right{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    text-decoration: none; 
+}
+.header-right ul {
+    display: flex;
+    list-style: none;
+}
+.header-right ul li {
+    margin-right: 1rem;
+}
+.header-right ul li a {
+    text-decoration: none;
+    color: black;
+}
