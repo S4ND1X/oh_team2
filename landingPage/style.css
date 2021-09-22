@@ -1,6 +1,7 @@
 *{
     font-family: sans-serif;
     box-sizing: border-box;
+    background-color:#eeeff1;
 }
 .header{
     display: flex;
@@ -8,7 +9,6 @@
     padding: 1rem;
     align-items: center;
     justify-content: space-between;
-    background-color:#eeeff1;
 }
 
 .main .header-right{
@@ -27,4 +27,20 @@
 .header-right ul li a {
     text-decoration: none;
     color: black;
+}
+.body{
+    margin-top: 2rem;
+}
+.body-top{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 90%;
+}
+.content-div{
+    padding-right: 3rem;
+}
+.image-div{
+    margin-left: 3rem;
 }
