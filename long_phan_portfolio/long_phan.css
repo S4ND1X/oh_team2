@@ -2,9 +2,10 @@ body {
   padding-bottom: 40vh;
 }
 
-p {
+p, h1, h3, li, button, input {
   font-size: 0.9rem;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Comic Sans MS, Comic Sans, cursive; */
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .nav-bar {
@@ -129,26 +130,41 @@ ul.network-icon i {
   font-size: 1.4em;
 }
 
-.education-column {
+ul.interest-icon, ul.hobbies-icon {
+  /* display: inline-flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.interest-icon i, ul.hobbies-icon i  {
+  padding-right: 1vw;
+  color: #2962ff;
+}
+
+.hobbies-column {
   padding-left: 15px;
   margin-top: -12vh;
   flex: auto;
   max-width: 65%;
 }
 
-.education-column h3 {
+.hobbies-column h3 {
   font-size: 1.8em;
   font-weight: 600;
 }
 
-.education-column li {
+.hobbies-column li {
   font-size: 1.4em;
 }
 
 .skills {
   text-align: center;
   background-color: ghostwhite;
-  padding-top: 3vh;
+  padding-top: 8vh;
   padding-bottom: 6vh;
 }
 
@@ -222,46 +238,46 @@ ul.network-icon i {
 }
 
 .contact {
-    padding-top: 8vh;
-  }
-  
-  .contact-heading {
-    flex: 100%;
-    margin-bottom: 1vh;
-    text-align: center;
-  }
-  
-  .contact-heading h1 {
-    font-size: 2.5em;
-    font-weight: 500;
-  }
-  
-  .contact-form {
-    margin: auto;
-    text-align: center;
-  }
-  
-  .contact-form input {
-    width: 40vw;
-    height: 8vh;
-    border-radius: 10px;
-    border: 0.8px solid grey;
-    margin-top: 1vh;
-    padding-left: 5px;
-    margin-bottom: 3vh;
-    display: block;
-    font-size: 1.5em;
-  }
-  
-  .contact-form button {
-    width: 8vw;
-    height: 5vh;
-    border-radius: 10px;
-    border: 0.8px solid #2962ff;
-    font-size: 1.3em;
-    color: #2962ff;
-  }
-  
-  button :hover {
-    cursor: pointer;
-  }
+  padding-top: 8vh;
+}
+
+.contact-heading {
+  flex: 100%;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+.contact-heading h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.contact-form {
+  margin: auto;
+  text-align: center;
+}
+
+.contact-form input {
+  width: 40vw;
+  height: 8vh;
+  border-radius: 10px;
+  border: 0.8px solid grey;
+  margin-top: 1vh;
+  padding-left: 10px;
+  margin-bottom: 3vh;
+  display: block;
+  font-size: 1.5em;
+}
+
+.contact-form button {
+  width: 8vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 0.8px solid #2962ff;
+  font-size: 1.3em;
+  color: #2962ff;
+}
+
+button :hover {
+  cursor: pointer;
+}
