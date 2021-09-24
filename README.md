@@ -59,7 +59,8 @@
 * [Bootstrap](https://getbootstrap.com)
 * [Python](https://www.python.org/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
-
+* [Html](https://html.com/)
+* [Css] (https://css-tricks.com/)
 ## Getting Started
 
 In order to successfully run our webpage, you must follow these steps and adhere to the prerequisites. This will ensure you establish a correct running environment. For the sake of good practice, we recommend using a virtual environment and will thus be showing how to set that up in the following sub-sections!
@@ -134,16 +135,16 @@ This team is composed of 3 members. Below are their Github and LinkedIn accounts
 ### Github
 [Jorge Sanchez](https://github.com/S4ND1X)
 
-[Vũ Long Phan]()
+[Vũ Long Phan](https://github.com/vulongphan)
 
-[Onyemowo Agbo]()
+[Onyemowo Agbo](https://github.com/Onyiee)
 
 ### LinkedIn
 [Jorge Sanchez](https://www.linkedin.com/in/jorgesanchezdiaz/)
 
 [Vũ Long Phan]()
 
-[Onyemowo Agbo]()
+[Onyemowo Agbo](http://linkedin.com/in/onyemowo-agbo)
 
 ## Devpost
 [Check it out]()
