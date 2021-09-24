@@ -4,7 +4,6 @@ body {
 
 p, h1, h3, li, button, input {
   font-size: 0.9rem;
-  /* font-family: Comic Sans MS, Comic Sans, cursive; */
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
