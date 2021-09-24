@@ -51,36 +51,36 @@ p {
 }
 
 #profile {
-    text-align: center;
-    padding: 30px 10px;
-  }
-  
-  .avatar {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    object-fit: cover;
-  }
-  
-  #profile .network-icon {
-    margin-top: 2vh;
-  }
-  
-  ul.network-icon {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  ul.network-icon i {
-    padding-right: 1vw;
-    color: #2962ff;
-  }
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#profile .network-icon {
+  margin-top: 2vh;
+}
+
+ul.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.network-icon i {
+  padding-right: 1vw;
+  color: #2962ff;
+}
 
 .title-column {
   flex: 0 0 33.33333333%;
@@ -146,18 +146,18 @@ p {
 }
 
 .skills {
-    text-align: center;
-    background-color: ghostwhite;
-    padding-top: 3vh;
-    padding-bottom: 6vh;
+  text-align: center;
+  background-color: ghostwhite;
+  padding-top: 3vh;
+  padding-bottom: 6vh;
 }
 
 .skills-column {
- flex: auto; 
+  flex: auto;
 }
 
 .skills-column i {
-  color: #2962ff
+  color: #2962ff;
 }
 
 .skills-column h3 {
@@ -174,4 +174,49 @@ p {
   font-size: 2.8em;
   font-weight: 500;
   letter-spacing: 0.025em;
+}
+
+.projects {
+  text-align: center;
+  background-color: ghostwhite;
+  margin-top: 6vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  flex: 100%;
+}
+
+.projects-heading {
+  flex: 100%;
+}
+
+.projects-heading h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.projects-image-column {
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+}
+
+.projects-image-column img {
+  width: 35vw;
+  height: auto;
+  margin-left: 10vw;
+  object-fit: cover;
+  border: solid black;
+  border-radius: 10px;
+}
+
+.projects-description-column {
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin-left: 16vw;
+  padding-right: 10vw;
+}
+
+.projects-description-column p {
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
