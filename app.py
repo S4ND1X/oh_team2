@@ -13,7 +13,7 @@ def index():
 @app.route("/jorge")
 def jorge():
     return render_template("jorge.html")
-    
+
 
 # This is the route that will display Onyemowo portfolio.
 @app.route("/onyemowo")
@@ -25,4 +25,3 @@ def onyemowo():
 @app.route("/long")
 def long():
     return render_template("long_phan.html")
-    
