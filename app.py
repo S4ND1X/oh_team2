@@ -15,6 +15,7 @@ def jorge():
     return render_template("jorge.html")
     
 
+
 # This is the route that will display Onyemowo portfolio.
 @app.route("/onyemowo")
 def onyemowo():
