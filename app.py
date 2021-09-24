@@ -25,4 +25,3 @@ def onyemowo():
 @app.route("/long")
 def long():
     return render_template("long_phan.html")
-
