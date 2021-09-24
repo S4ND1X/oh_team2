@@ -40,3 +40,107 @@ p {
 .nav-bar a:hover {
   text-decoration-line: underline;
 }
+
+.row {
+  padding-top: 12vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: -15px; */
+  margin-left: -15px;
+  flex-direction: row;
+}
+
+#profile {
+    text-align: center;
+    padding: 30px 10px;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  
+  #profile .network-icon {
+    margin-top: 2vh;
+  }
+  
+  ul.network-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul.network-icon i {
+    padding-right: 1vw;
+    color: #2962ff;
+  }
+
+.title-column {
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+}
+
+.title-column h1 {
+  font-size: 2.3em;
+  font-weight: 600;
+}
+
+.title-column h3 {
+  font-size: 1.5em;
+  color: gray;
+  font-weight: 300;
+}
+
+.biography-column {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.biography-column p {
+  font-size: 1.4em;
+  line-height: 1.6em;
+}
+
+.biography-column h1 {
+  font-size: 2.8em;
+  font-weight: 500;
+}
+
+.interest-column {
+  padding-left: 15px;
+  margin-top: -12vh;
+  flex: 0 0 35%;
+  max-width: 35%;
+}
+
+.interest-column h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.interest-column li {
+  font-size: 1.4em;
+}
+
+.education-column {
+  padding-left: 15px;
+  margin-top: -12vh;
+  flex: auto;
+  max-width: 65%;
+}
+
+.education-column h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.education-column li {
+  font-size: 1.4em;
+}
