@@ -8,17 +8,21 @@ app = Flask(__name__)
 def index():
     return render_template("landing_page.html")
 
+
 # This is the route that will display jorge portfolio.
 @app.route("/jorge")
 def jorge():
     return render_template("jorge.html")
+    
 
 # This is the route that will display Onyemowo portfolio.
 @app.route("/onyemowo")
 def onyemowo():
     return render_template("onyemowo.html")
 
+
 # This is the route that will display Long portfolio.
 @app.route("/long")
 def long():
     return render_template("long_phan.html")
+    
