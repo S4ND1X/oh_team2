@@ -56,11 +56,14 @@
 ## About the Project
 
 ### Built With
-* [Bootstrap](https://getbootstrap.com)
 * [Python](https://www.python.org/)
+* [Pysa](https://pyre-check.org/docs/pysa-basics/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+* [Heroku](https://www.heroku.com/)
 * [Html](https://html.com/)
-* [Css] (https://css-tricks.com/)
+* [Css](https://css-tricks.com)
+* [ScrollReveal](https://scrollrevealjs.org/)
+* [Bootstrap](https://getbootstrap.com)
 ## Getting Started
 
 In order to successfully run our webpage, you must follow these steps and adhere to the prerequisites. This will ensure you establish a correct running environment. For the sake of good practice, we recommend using a virtual environment and will thus be showing how to set that up in the following sub-sections!
@@ -153,8 +156,11 @@ To run the app you have to follow the next commandlines:
 ```ssh
 git clone git@github.com:S4ND1X/oh_team2.git
 cd oh_team2
+pip3 install virtualenv
+virtualenv env
+source env/bin/activate
 pip3 install -r requirements.txt
-flask run
+python wsgi.py
 ```
 
 ## Contributors
