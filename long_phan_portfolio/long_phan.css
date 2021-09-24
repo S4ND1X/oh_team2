@@ -1,0 +1,42 @@
+body {
+  padding-bottom: 40vh;
+}
+
+p {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 2px gainsboro;
+  background-color: white;
+  z-index: 0;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.nav-bar a:hover {
+  text-decoration-line: underline;
+}
