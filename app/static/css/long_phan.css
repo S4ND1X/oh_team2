@@ -1,0 +1,282 @@
+body {
+  padding-bottom: 40vh;
+}
+
+p, h1, h3, li, button, input {
+  font-size: 0.9rem;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 2px gainsboro;
+  background-color: white;
+  z-index: 0;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.nav-bar a:hover {
+  text-decoration-line: underline;
+}
+
+.row {
+  padding-top: 12vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: -15px; */
+  margin-left: -15px;
+  flex-direction: row;
+}
+
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#profile .network-icon {
+  margin-top: 2vh;
+}
+
+ul.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.network-icon i {
+  padding-right: 1vw;
+  color: #2962ff;
+}
+
+.title-column {
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+}
+
+.title-column h1 {
+  font-size: 2.3em;
+  font-weight: 600;
+}
+
+.title-column h3 {
+  font-size: 1.5em;
+  color: gray;
+  font-weight: 300;
+}
+
+.biography-column {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.biography-column p {
+  font-size: 1.4em;
+  line-height: 1.6em;
+}
+
+.biography-column h1 {
+  font-size: 2.8em;
+  font-weight: 500;
+}
+
+.interest-column {
+  padding-left: 15px;
+  margin-top: -12vh;
+  flex: 0 0 35%;
+  max-width: 35%;
+}
+
+.interest-column h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.interest-column li {
+  font-size: 1.4em;
+}
+
+ul.interest-icon, ul.hobbies-icon {
+  /* display: inline-flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.interest-icon i, ul.hobbies-icon i  {
+  padding-right: 1vw;
+  color: #2962ff;
+}
+
+.hobbies-column {
+  padding-left: 15px;
+  margin-top: -12vh;
+  flex: auto;
+  max-width: 65%;
+}
+
+.hobbies-column h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.hobbies-column li {
+  font-size: 1.4em;
+}
+
+.skills {
+  text-align: center;
+  background-color: ghostwhite;
+  padding-top: 8vh;
+  padding-bottom: 6vh;
+}
+
+.skills-column {
+  flex: auto;
+}
+
+.skills-column i {
+  color: #2962ff;
+}
+
+.skills-column h3 {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.skills-heading {
+  flex: 100%;
+  padding-bottom: 3vh;
+}
+
+.skills-heading h1 {
+  font-size: 2.8em;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+.projects {
+  text-align: center;
+  background-color: ghostwhite;
+  margin-top: 6vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  flex: 100%;
+}
+
+.projects-heading {
+  flex: 100%;
+}
+
+.projects-heading h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.projects-image-column {
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+}
+
+.projects-image-column img {
+  width: 35vw;
+  height: auto;
+  margin-left: 10vw;
+  object-fit: cover;
+  border: solid black;
+  border-radius: 10px;
+}
+
+.projects-description-column {
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin-left: 16vw;
+  padding-right: 10vw;
+}
+
+.projects-description-column p {
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.contact {
+  padding-top: 8vh;
+}
+
+.contact-heading {
+  flex: 100%;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+.contact-heading h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.contact-form {
+  margin: auto;
+  text-align: center;
+}
+
+.contact-form input {
+  width: 40vw;
+  height: 8vh;
+  border-radius: 10px;
+  border: 0.8px solid grey;
+  margin-top: 1vh;
+  padding-left: 10px;
+  margin-bottom: 3vh;
+  display: block;
+  font-size: 1.5em;
+}
+
+.contact-form button {
+  width: 8vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 0.8px solid #2962ff;
+  font-size: 1.3em;
+  color: #2962ff;
+}
+
+button :hover {
+  cursor: pointer;
+}
